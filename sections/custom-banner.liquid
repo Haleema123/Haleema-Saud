@@ -1,6 +1,4 @@
-<!-- custom-banner.liquid -->
 <section class="custom-banner">
-  <div class="banner-background">
-    <img src="{{ 'icon-eye.svg' | asset_url }}" alt="Background Image">
-  </div>
+  <h1>{{ section.settings.heading }}</h1>
+  <img src="{{ section.settings.background_image | asset_url }}" width=100px height=100px alt="Banner Image">
 </section>
