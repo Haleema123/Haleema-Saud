@@ -276,14 +276,6 @@
       </a>
     </div>
   </header>
-  {%- if request.page_type == 'page.Haleema-test.json' -%}  <!-- or use specific URL or page handle -->
-  <style>
-    .header {
-      display: none;
-    }
-  </style>
-{%- endif -%}
-
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
 {%- if settings.cart_type == "notification" -%}
